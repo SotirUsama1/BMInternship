@@ -3,4 +3,3 @@
   This is a repo where I have merged my work from the environments I am working on
 
 - Windows 
-- Ubuntu
