@@ -1,21 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nodejs-solar-system
+  name: nodejs-hello
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nodejs-solar-system
+      app: nodejs-hello
   template:
     metadata:
       labels:
-        app: nodejs-solar-system
+        app: nodejs-hello
     spec:
       containers:
-      - name: nodejs-solar-system
-        image: sotirusama/noder:latest
+      - name: nodejs-hello
+        image: sotirusama/node-hello:latest
         ports:
-        - port: 30010
-          targetPort: 80
-          containerPort: 80
+        - containerPort: 3000
