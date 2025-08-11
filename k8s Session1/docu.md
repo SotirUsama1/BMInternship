@@ -88,3 +88,8 @@ Updated manifest plus CLI logs showing both the rollout and the rollback
 
 > To review CLI logs find this [session.log](./session.log) file and execute this command in a terminal
 `cat session.log`
+<p align = "center">
+  <img src="./Screenshot%20From%202025-08-11%2015-34-38.png" alt="drawing" width="550"/>
+  <br>
+  <img src="./Screenshot%20From%202025-08-11%2015-34-51.png" alt="drawing" width="550"/>
+</p>
